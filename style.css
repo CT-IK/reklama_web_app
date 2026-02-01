@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: var(--tg-theme-bg-color); /* Автоматическая тема Telegram */
+    /* background-color: var(--tg-theme-bg-color); Автоматическая тема Telegram */
+    background-color: #aef2cc;
     color: var(--tg-theme-text-color);
     height: 100vh;
     box-sizing: border-box;
@@ -27,7 +28,8 @@ button {
     margin: 10px 0;
     border: none;
     border-radius: 8px;
-    background-color: var(--tg-theme-button-color);
+    /* background-color: var(--tg-theme-button-color); */
+    
     color: var(--tg-theme-button-text-color);
     cursor: pointer;
 }
@@ -57,23 +59,13 @@ main h2 {
     margin: 0;
 }
 
-/* ============================================ */
-/* НАЧАЛО: Здесь пиши стили для FAQ элементов */
-/* ============================================ */
-
-/* Добавляй свои CSS стили сюда для FAQ */
-/* Пример стиля для элемента:
 .faq-item {
-    background-color: #f0f0f0;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
+    background-color: #541c85;
+    color: #faf7fc;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 12px;
 }
-*/
-
-/* ============================================ */
-/* КОНЕЦ: Стили для FAQ */
-/* ============================================ */
 
 @keyframes fadeIn {
     from {
