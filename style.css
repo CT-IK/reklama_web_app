@@ -3,8 +3,7 @@ body {
     padding: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     /* background-color: var(--tg-theme-bg-color); Автоматическая тема Telegram */
-    background-image: url(https://images.pexels.com/photos/33622480/pexels-photo-33622480.jpeg);
-    background-size: cover;
+    background-color: #161733;
     /* color: var(--tg-theme-text-color); */
     color: #e6e7f5;
     height: 100vh;
@@ -17,7 +16,6 @@ body {
 header {
     text-align: center;
     transform: translateY(-200px);
-    background-color: #161733;
 }
 
 .container {
@@ -56,6 +54,8 @@ main {
     padding: 20px;
     text-align: center;
     animation: fadeIn 0.5s ease-in;
+    background-image: url(https://images.pexels.com/photos/33622480/pexels-photo-33622480.jpeg);
+    background-size: cover;
 }
 
 main h2 {
