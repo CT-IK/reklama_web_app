@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telegram mini app for reklama</title>
+    <script src="https://telegram.org/js/telegram-web-app.js?59"></script>
     <link rel="stylesheet" href="style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
+    <header>
+        <h1 id="animated-title" class="typing-animation"></h1>
+    </header>
+    <main id="main-content" class="hidden">
         <h2>FAQ</h2>
 
         <details class="faq-item" name="question">
@@ -71,7 +75,7 @@
                 <p>Коммуникацию с организаторами через чат с куратором может вести вся команда</p>
             </article>
         </details>
-        
+
         <details class="faq-item" name="question">
             <summary><h3>Можно ли пропустить какое-то задание и что за это будет?</h3></summary>
             <article>
@@ -86,5 +90,9 @@
             </article>
         </details>
     </main>
+    <script src="animation.js"></script>
+    <script src="telegram-init.js"></script>
+    <script src="faq.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
