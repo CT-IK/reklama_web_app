@@ -4,48 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Telegram mini app for reklama</title>
-    <script src="https://telegram.org/js/telegram-web-app.js?59"></script>
     <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1 id="animated-title" class="typing-animation"></h1>
-    </header>
-    <main id="main-content" class="hidden">
+    <main>
+        <h2>FAQ</h2>
+
         <details class="faq-item" name="question">
-            <summary><h3>Почему рыбы не летают?</h3></summary>
+            <summary><h3>Сколько этапов включает в себя проект?</h3></summary>
             <article>
-                <p>Потому что lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Проект включает в себя 2 этапа: конкурс и финал. Конкурс проводится онлайн, финал проводится очно в Москве</p>
             </article>
         </details>
         
         <details class="faq-item" name="question">
-            <summary><h3>В чем смысл жизни?</h3></summary>
+            <summary><h3>Что будет если один из участников команды откажется от участия во время проекта?</h3></summary>
             <article>
-                <p>В том, что lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Участник может покинуть команду, если в ней останутся не менее 2 участников.</p>
             </article>
         </details>
 
         <details class="faq-item" name="question">
-            <summary><h3>Что сказать человеку на грани нервного срыва?</h3></summary>
+            <summary><h3>Есть ли в данном проекте дисквалификация?</h3></summary>
             <article>
-                <p>Жизнь скоро наладится, ведь у нас есть lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Дисквалификация может быть за грубые нарушения правил. 
+                    Подробно штрафные санкции расписаны в Положении проекта. 
+                    Для уточнения системы штрафов команда может обратиться к своему куратору.</p>
+            </article>
+        </details>
+
+        <details class="faq-item" name="question">
+            <summary><h3>Что будет за просрочку дедлайна?</h3></summary>
+            <article>
+                <p>Если команда не предупредила куратора и не имеет уважительной причины просрочки дедлайна, команда получает меньше баллов за задание.. 
+                    Подробнее о системе штрафов вы можете узнать у своего куратора, который подробнее расскажет о системе штрафов вместе с выдачей задания.</p>
+            </article>
+        </details>
+
+        <details class="faq-item" name="question">
+            <summary><h3>Можно ли менять состав команды после регистрации?</h3></summary>
+            <article>
+                <p>Участник может покинуть команду, если в ней останутся не менее 2 участников. Добавление новых участников после регистрации команды не предусматривается.</p>
+            </article>
+        </details>
+
+        <details class="faq-item" name="question">
+            <summary><h3>Предоставляются ли шаблоны для оформления презентации/работы?</h3></summary>
+            <article>
+                <p>Шаблон для оформления не предоставляется. Обязательные правила предоставления работы будут указаны в ТЗ., а так же прописаны в Положении проекта.</p>
+            </article>
+        </details>
+
+        <details class="faq-item" name="question">
+            <summary><h3>А какой приз будет?</h3></summary>
+            <article>
+                <p>Главный приз проекта - шанс получить стажировку. Также за успешное выполнение задания и его защиту команды могут получить призы и сертификат об участии.</p>
             </article>
         </details>
         
+        <details class="faq-item" name="question">
+            <summary><h3>Коммуникацию с организаторами ведёт вся команда или только капитан?</h3></summary>
+            <article>
+                <p>Коммуникацию с организаторами через чат с куратором может вести вся команда</p>
+            </article>
+        </details>
+        
+        <details class="faq-item" name="question">
+            <summary><h3>Можно ли пропустить какое-то задание и что за это будет?</h3></summary>
+            <article>
+                <p>За невыполнение задания команда не получает баллы за это задание соответственно.</p>
+            </article>
+        </details>
+
+        <details class="faq-item" name="question">
+            <summary><h3>Какие критерии оценки работ и выявления победителей?</h3></summary>
+            <article>
+                <p>Подробно критерии оценки прописаны в Положении проекта. Для уточнения правил команда может обратиться к своему куратору.</p>
+            </article>
+        </details>
     </main>
-    <script src="animation.js"></script>
-    <script src="telegram-init.js"></script>
-    <script src="faq.js"></script>
-    <script src="main.js"></script>
 </body>
 </html>
